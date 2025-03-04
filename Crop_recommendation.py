@@ -3,7 +3,7 @@ import requests
 from langchain_community.chat_models import ChatOllama
 
 # Weather API Configuration
-WEATHER_API_KEY = "your_api_key"
+WEATHER_API_KEY = "887f15bff1d34781807164205250403"
 WEATHER_API_URL = "http://api.weatherapi.com/v1/forecast.json"
 
 def get_weather_data(location):
